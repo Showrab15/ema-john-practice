@@ -1,0 +1,20 @@
+.navbar-container{
+    height: 80px;
+/* width: 1440px; */
+background: #1C2B35;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-left: 100px;
+padding-right: 100px;
+}
+
+ .nav-container a{
+margin-left: 30px;
+text-decoration: none;
+color: white;
+} 
+
+.nav-container a:hover{
+    color: tomato;
+}
