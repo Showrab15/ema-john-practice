@@ -5,8 +5,8 @@ background-color: tomato;
 position: relative;
 border-radius: 8px;
 position: relative;
-position: sticky;
-top: 0px;
+/* position: sticky; */
+/* top: 0px; */
 
 }
 
