@@ -14,7 +14,7 @@ for(const product of cart){
     totalShipping = totalShipping + product.shipping;
     product.quantity =   product.quantity || 1;
             quantity = quantity + product.quantity;
-
+console.log(totalShipping)
 }
 
  const tax = totalPrice * 5 / 100;
@@ -25,8 +25,8 @@ for(const product of cart){
                  <p>Selected items : {quantity}</p> 
                  <p>Total Price : ${totalPrice}</p> 
                  <p>Total Shipping  : ${totalShipping}</p> 
-                 <p>Tax  : ${tax}</p> 
-                 <h3>GrandTotal: ${grandTotal}</h3>
+                 <p>Tax  : ${tax.toFixed(2)}</p> 
+                 <h3>GrandTotal: ${grandTotal.toFixed(2)}</h3>
 
         </div>
     );
